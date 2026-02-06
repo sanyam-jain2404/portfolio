@@ -123,45 +123,35 @@ footer {
 }
 
 .hero-links {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;           /* space between buttons */
+    margin-top: 25px;
 }
 
-.hero-links a {
-    text-decoration: none;
-    color: white;
-    border: 2px solid white;
-    padding: 8px 18px;
-    border-radius: 25px;
-    margin: 0 10px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.hero-links a:hover {
-    background: white;
-    color: #1e3c72;
-}
-
+/* Button */
 .social-btn {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 8px;            /* space between icon & text */
     text-decoration: none;
     color: white;
     border: 2px solid white;
     padding: 10px 18px;
     border-radius: 30px;
-    margin: 0 10px;
     font-weight: 600;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
+/* Icon */
 .social-btn svg {
     width: 18px;
     height: 18px;
     fill: white;
 }
 
+/* Hover */
 .social-btn:hover {
     background: white;
     color: #1e3c72;
@@ -170,4 +160,3 @@ footer {
 .social-btn:hover svg {
     fill: #1e3c72;
 }
-
