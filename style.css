@@ -122,3 +122,23 @@ footer {
     min-width: 170px;
 }
 
+.hero-links {
+    margin-top: 20px;
+}
+
+.hero-links a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-links a:hover {
+    background: white;
+    color: #1e3c72;
+}
+
