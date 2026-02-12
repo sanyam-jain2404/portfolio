@@ -160,3 +160,25 @@ footer {
 .social-btn:hover svg {
     fill: #1e3c72;
 }
+.contact-info p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.contact-info strong {
+    font-weight: 700;
+    color: #000;
+    display: inline-block;
+    min-width: 130px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #1e3c72;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
