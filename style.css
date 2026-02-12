@@ -181,4 +181,47 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
+/* Contact Section Upgrade */
+
+.contact-box {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-item {
+    background: #f4f6fb;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.email-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.email-label {
+    display: block;
+    font-weight: 700;
+    color: #1e3c72;
+    margin-bottom: 5px;
+}
+
+.email-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.email-item a:hover {
+    color: #1e3c72;
+}
+
 
