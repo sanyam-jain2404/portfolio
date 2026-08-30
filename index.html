@@ -1,179 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanyam Jain | Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio of Sanyam Jain - Software Development Engineer and Computer Science student.">
+
+    <title>Sanyam Jain | Software Development Engineer</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- HERO / LANDING -->
-<section class="hero">
-    <h1 class="fade-in">Hi, I’m <span>Sanyam Jain</span></h1>
+    <!-- ================= HERO ================= -->
 
-    <p class="fade-in delay">
-        B.Tech Computer Science Student & Aspiring Full Stack Developer
-    </p>
+    <section class="hero">
 
-    <!-- SOCIAL LINKS -->
-    <div class="hero-links fade-in delay2">
-    <a href="https://github.com/sanyam-jain2404" target="_blank" class="social-btn">
-        <!-- GitHub SVG -->
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577
-            0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61
-            -.546-1.387-1.333-1.757-1.333-1.757
-            -1.09-.745.083-.73.083-.73
-            1.205.085 1.84 1.237 1.84 1.237
-            1.07 1.835 2.807 1.305 3.495.998
-            .108-.776.418-1.305.762-1.605
-            -2.665-.305-5.466-1.332-5.466-5.93
-            0-1.31.47-2.38 1.235-3.22
-            -.135-.303-.54-1.523.105-3.176
-            0 0 1.005-.322 3.3 1.23
-            .96-.267 1.98-.399 3-.405
-            1.02.006 2.04.138 3 .405
-            2.28-1.552 3.285-1.23 3.285-1.23
-            .645 1.653.24 2.873.12 3.176
-            .765.84 1.23 1.91 1.23 3.22
-            0 4.61-2.805 5.625-5.475 5.92
-            .435.375.81 1.096.81 2.22
-            0 1.606-.015 2.896-.015 3.286
-            0 .315.21.69.825.57
-            C20.565 21.795 24 17.295 24 12
-            24 5.37 18.63 0 12 0z"/>
-        </svg>
-        GitHub
-    </a>
-    </br>
-    </br>
-    <a href="https://www.linkedin.com/in/sanyam-jain-8650a2307/" target="_blank" class="social-btn">
-        <!-- LinkedIn SVG -->
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M22.23 0H1.77C.79 0 0 .774 0 1.727v20.545C0 23.227.79 24 1.77 24h20.46
-            C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.23 0zM7.06 20.452H3.56V9h3.5v11.452z
-            M5.31 7.433c-1.12 0-2.03-.912-2.03-2.034
-            0-1.123.91-2.034 2.03-2.034
-            1.12 0 2.03.911 2.03 2.034
-            0 1.122-.91 2.034-2.03 2.034z
-            M20.45 20.452h-3.5v-5.569
-            c0-1.328-.03-3.037-1.85-3.037
-            -1.85 0-2.13 1.445-2.13 2.94v5.666h-3.5V9h3.36v1.561h.05
-            c.47-.888 1.62-1.823 3.34-1.823
-            3.57 0 4.23 2.35 4.23 5.41v6.304z"/>
-        </svg>
-        LinkedIn
-    </a>
-</div>
+        <div class="hero-content">
 
+            <p class="intro fade-in">
+                Hello, I'm
+            </p>
 
-    <button class="explore fade-in delay2" onclick="scrollToProfile()">
-        Explore More ↓
-    </button>
-</section>
+            <h1 class="fade-in delay">
+                Sanyam Jain
+            </h1>
+
+            <h2 class="fade-in delay2">
+                Aspiring Software Development Engineer
+            </h2>
+
+            <p class="hero-description fade-in delay3">
+                Computer Science student passionate about building
+                scalable software and solving real-world problems.
+            </p>
+
+            <!-- Social Links -->
+
+            <div class="hero-links fade-in delay3">
+
+                <!-- GitHub -->
+                <a href="https://github.com/sanyam-jain2404"
+                    target="_blank"
+                    class="social-btn">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577
+                        0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61
+                        -.546-1.387-1.333-1.757-1.333-1.757
+                        -1.09-.745.083-.73.083-.73
+                        1.205.085 1.84 1.237 1.84 1.237
+                        1.07 1.835 2.807 1.305 3.495.998
+                        .108-.776.418-1.305.762-1.605
+                        -2.665-.305-5.466-1.332-5.466-5.93
+                        0-1.31.47-2.38 1.235-3.22
+                        -.135-.303-.54-1.523.105-3.176
+                        0 0 1.005-.322 3.3 1.23
+                        .96-.267 1.98-.399 3-.405
+                        1.02.006 2.04.138 3 .405
+                        2.28-1.552 3.285-1.23 3.285-1.23
+                        .645 1.653.24 2.873.12 3.176
+                        .765.84 1.23 1.91 1.23 3.22
+                        0 4.61-2.805 5.625-5.475 5.92
+                        .435.375.81 1.096.81 2.22
+                        0 1.606-.015 2.896-.015 3.286
+                        0 .315.21.69.825.57
+                        C20.565 21.795 24 17.295 24 12
+                        24 5.37 18.63 0 12 0z"/>
+                    </svg>
+
+                    GitHub
+
+                </a>
 
 
-<!-- PROFILE CONTENT -->
-<section id="profile" class="card fade">
-    <h2>Career Objective</h2>
-    <p>
-        Aspiring Full Stack Developer with a strong foundation in web technologies.
-        Passionate about building scalable and user-friendly applications and
-        continuously learning new technologies.
-    </p>
-</section>
+                <!-- LinkedIn -->
 
-<section class="card fade">
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <strong>B.Tech – Computer Science</strong><br>
-            KIET Deemed to be University, Ghaziabad<br>
-            CGPA: 8.44 / 10 (till 3rd semester)
-        </li>
-        <li>
-            <strong>Class XII (CBSE)</strong> – 76.6%
-        </li>
-        <li>
-            <strong>Class X (CBSE)</strong> – 92%
-        </li>
-    </ul>
-</section>
+                <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+                    target="_blank"
+                    class="social-btn">
 
-<section class="card fade">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Gaming Zone</strong>
-            <p>Interactive browser-based games using HTML, CSS and JavaScript.</p>
-        </li>
-        <li>
-            <strong>Portfolio Maker</strong>
-            <p>Dynamic portfolio generator with custom styling.</p>
-        </li>
-    </ul>
-</section>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M22.23 0H1.77C.79 0 0 .774 0 1.727v20.545C0 23.227.79 24 1.77 24h20.46
+                        C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.23 0z
+                        M7.06 20.452H3.56V9h3.5v11.452z
+                        M5.31 7.433c-1.12 0-2.03-.912-2.03-2.034
+                        0-1.123.91-2.034 2.03-2.034
+                        1.12 0 2.03.911 2.03 2.034
+                        0 1.122-.91 2.034-2.03 2.034z
+                        M20.45 20.452h-3.5v-5.569
+                        c0-1.328-.03-3.037-1.85-3.037
+                        -1.85 0-2.13 1.445-2.13 2.94v5.666h-3.5V9h3.36v1.561h.05
+                        c.47-.888 1.62-1.823 3.34-1.823
+                        3.57 0 4.23 2.35 4.23 5.41v6.304z"/>
+                    </svg>
 
-<section class="card fade" id="skills">
-    <h2>Technical Skills</h2>
+                    LinkedIn
 
-    <div class="skills-list">
-        <p><strong>Languages:</strong> HTML, CSS, JavaScript, C++, Python, Java</p>
+                </a>
 
-        <p><strong>Web Technologies:</strong> Frontend Development, Responsive Design</p>
-
-        <p><strong>Databases:</strong> SQL, NoSQL</p>
-
-        <p><strong>Cloud:</strong> AWS Cloud Services</p>
-
-        <p><strong>Operating Systems:</strong> Linux</p>
-    </div>
-</section>
+            </div>
 
 
-<section class="card fade">
-    <h2>Certifications</h2>
-    <ul>
-        <li>AWS Cloud Practitioner Training</li>
-        <li>Introduction to SQL & NoSQL</li>
-        <li>Linux Fundamentals</li>
-    </ul>
-</section>
+            <!-- Explore Button -->
 
-<footer class="fade">
-    <section class="card fade" id="contact">
-    <h2>Contact</h2>
+            <button class="explore fade-in delay4"
+                onclick="scrollToProfile()">
 
-    <div class="contact-box">
+                Explore My Profile ↓
 
-        <div class="email-item">
-            <span class="email-label">College Email</span>
-            <a href="mailto:sanyam.2428cs1239@kiet.edu">
-                sanyam.2428cs1239@kiet.edu
-            </a>
+            </button>
+
         </div>
 
-        <div class="email-item">
-            <span class="email-label">Personal Email</span>
-            <a href="mailto:jainsanyam981@gmail.com">
-                jainsanyam981@gmail.com
-            </a>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
-    <p>© 2026 Sanyam Jain</p>
-</footer>
+    <!-- ================= MAIN CONTENT ================= -->
 
-<script src="script.js"></script>
+    <main id="profile">
+
+
+        <!-- ================= CAREER OBJECTIVE ================= -->
+
+        <section class="card fade">
+
+            <h2>Career Objective</h2>
+
+            <p>
+                Aspiring Software Development Engineer with a strong foundation
+                in programming, problem-solving, and software development.
+                Skilled in C++, Python, Java fundamentals, JavaScript, React.js,
+                and Next.js, with hands-on experience building real-world
+                applications. Seeking opportunities to develop scalable and
+                efficient software solutions while continuously expanding
+                expertise across emerging technologies.
+            </p>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="card fade">
+
+            <h2>Education</h2>
+
+            <div class="education-item">
+
+                <div class="education-header">
+
+                    <h3>Bachelor of Technology in Computer Science</h3>
+
+                    <span>Expected 2028</span>
+
+                </div>
+
+                <p>
+                    KIET Deemed to be University, Ghaziabad
+                </p>
+
+                <p>
+                    <strong>CGPA:</strong> 8.23 / 10.0
+                    <span class="muted">(till 4th Semester)</span>
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <div class="education-header">
+
+                    <h3>Higher Secondary Education (Class XII)</h3>
+
+                    <span>2024</span>
+
+                </div>
+
+                <p>
+                    Central Board of Secondary Education (CBSE)
+                </p>
+
+                <p>
+                    <strong>Percentage:</strong> 76.6%
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <div class="education-header">
+
+                    <h3>Secondary Education (Class X)</h3>
+
+                    <span>2022</span>
+
+                </div>
+
+                <p>
+                    Central Board of Secondary Education (CBSE)
+                </p>
+
+                <p>
+                    <strong>Percentage:</strong> 92%
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTERNSHIP ================= -->
+
+        <section class="card fade">
+
+            <h2>Internship</h2>
+
+            <div class="experience">
+
+                <div class="experience-header">
+
+                    <div>
+
+                        <h3>Frontend Developer Intern</h3>
+
+                        <p class="company">
+                            3DP Technologies
+                        </p>
+
+                    </div>
+
+                    <span>June 2026 – July 2026</span>
+
+                </div>
+
+
+                <ul>
+
+                    <li>
+                        Worked on the company website using Next.js,
+                        React, JavaScript and Tailwind CSS.
+                    </li>
+
+                    <li>
+                        Developed and modified frontend components
+                        for different sections of the website.
+                    </li>
+
+                    <li>
+                        Worked on responsive layouts, styling and navigation.
+                    </li>
+
+                    <li>
+                        Fixed frontend issues and made UI changes
+                        based on requirements.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="card fade">
+
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+
+                <!-- Portfolio Maker -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>Portfolio Maker</h3>
+
+                    <p class="tech">
+                        HTML · CSS · JavaScript
+                    </p>
+
+                    <p>
+                        Created a dynamic portfolio generation tool
+                        allowing users to create personalized portfolios.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Designed an intuitive user interface
+                            with custom CSS styling and animations.
+                        </li>
+
+                        <li>
+                            Implemented JavaScript functionality
+                            for dynamic content generation and customization.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- AI Smart Study Assistant -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>AI Smart Study Assistant</h3>
+
+                    <p class="tech">
+                        Python · Streamlit
+                    </p>
+
+                    <p>
+                        Developed an AI-powered smart study assistant
+                        using Python and Streamlit.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Integrated Pomodoro technique with study timer,
+                            focus sessions and productivity tracking.
+                        </li>
+
+                        <li>
+                            Implemented AI-based study recommendations
+                            and an interactive user-friendly dashboard.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Patient Management System -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>Patient Management System</h3>
+
+                    <p class="tech">
+                        HTML · CSS · JavaScript · React
+                    </p>
+
+                    <p>
+                        Built a frontend-based patient management system
+                        for managing patient details and appointments.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Used Local Storage to store and retrieve
+                            patient records efficiently without backend integration.
+                        </li>
+
+                        <li>
+                            Designed responsive and user-friendly interface
+                            for smooth patient data management.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TECHNICAL SKILLS ================= -->
+
+        <section class="card fade">
+
+            <h2>Technical Skills</h2>
+
+            <div class="skills-list">
+
+                <p>
+                    <strong>Languages:</strong>
+                    HTML, CSS, JavaScript, C++, Python, Java Fundamentals
+                </p>
+
+                <p>
+                    <strong>Web Technologies:</strong>
+                    React.js, Next.js, Tailwind CSS,
+                    Responsive Web Design, REST APIs
+                </p>
+
+                <p>
+                    <strong>Databases:</strong>
+                    SQL, NoSQL
+                </p>
+
+                <p>
+                    <strong>Cloud:</strong>
+                    AWS Cloud Services
+                </p>
+
+                <p>
+                    <strong>Operating Systems:</strong>
+                    Linux
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CERTIFICATIONS ================= -->
+
+        <section class="card fade">
+
+            <h2>Certifications</h2>
+
+            <div class="certifications">
+
+                <div class="certificate">
+                    <span>01</span>
+                    <p>AWS Cloud Practitioner Training</p>
+                </div>
+
+                <div class="certificate">
+                    <span>02</span>
+                    <p>Introduction to SQL</p>
+                </div>
+
+                <div class="certificate">
+                    <span>03</span>
+                    <p>Introduction to NoSQL</p>
+                </div>
+
+                <div class="certificate">
+                    <span>04</span>
+                    <p>Linux Fundamentals</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="card fade" id="contact">
+
+            <h2>Contact</h2>
+
+            <div class="contact-box">
+
+                <a class="email-card"
+                    href="mailto:sanyam.2428cs1239@kiet.edu">
+
+                    <span class="email-label">
+                        College Email
+                    </span>
+
+                    <span class="email-address">
+                        sanyam.2428cs1239@kiet.edu
+                    </span>
+
+                </a>
+
+
+                <a class="email-card"
+                    href="mailto:jainsanyam981@gmail.com">
+
+                    <span class="email-label">
+                        Personal Email
+                    </span>
+
+                    <span class="email-address">
+                        jainsanyam981@gmail.com
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Sanyam Jain
+        </p>
+
+        <p>
+            Software Development Engineer
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
-
-
-
-
-
-
